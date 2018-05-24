@@ -1,0 +1,7 @@
+<Alloy>
+	<Window title="Map">
+		<Module module="ti.map" method="createView" id="mapView">
+			<Annotation id="copenhagenJS"></Annotation>
+		</Module>
+	</Window>
+</Alloy>

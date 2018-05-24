@@ -1,0 +1,28 @@
+".container": {
+	layout: 'vertical',
+	backgroundColor: "#ffffff"
+}
+
+".labelStyling": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	top: 20
+}
+
+"#label": {
+	text: 'Hello',
+	top: 50
+}
+
+'#label2': {
+	text: "World!"
+}
+
+
+"#redSquare": {
+	color: "#cc5555",
+	textColor: "#ffffff",
+	title: "Red Square!",
+	top: 50
+}

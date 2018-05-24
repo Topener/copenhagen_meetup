@@ -1,0 +1,19 @@
+"Label": {
+	font: {
+		fontSize: 18
+	}
+}
+
+"#wrapper": {
+	height: 300,
+	width: 300
+}
+
+".box": {
+	height: 300,
+	width: 300
+}
+
+"#second": {
+	backgroundColor: "blue"
+}

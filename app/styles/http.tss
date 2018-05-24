@@ -1,0 +1,16 @@
+"#wrapper": {
+	left: 0,
+	height: 80,
+	width: Ti.UI.FILL
+}
+
+"#target": {
+	left: 20,
+	color: "#333333",
+	font: {
+		fontSize: 20
+	},
+	height: 25,
+	width: Ti.UI.SIZE,
+	top: 10
+}

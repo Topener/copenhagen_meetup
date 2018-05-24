@@ -1,0 +1,13 @@
+"Window": {
+	backgroundColor: "#ffffff"
+}
+
+
+"Window[platform=ios]": {
+	barColor: "#22674E",
+	tintColor: "#ffffff",
+	navTintColor: "#ffffff",
+	titleAttributes: {
+		color: "#ffffff"
+	}
+}

@@ -1,0 +1,15 @@
+"#mapView": {
+	region: {
+		latitude: 55.6867392,
+		longitude: 12.5759073,
+		latitudeDelta: 0.1,
+		longitudeDelta: 0.1
+	}
+}
+
+"#copenhagenJS": {
+	latitude: 55.7017753,
+	longitude: 12.6001155,
+	image: '/images/jslogo.png',
+	title: "You are here"
+}

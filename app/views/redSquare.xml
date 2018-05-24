@@ -1,0 +1,15 @@
+
+
+
+<Alloy>
+	<ScrollableView id="wrapper">
+		<View id="first" class="box">
+			<Label id="firstLabel">First</Label>
+		</View>
+		<View id="second" class="box">
+			<Label id="secondLabel">Second</Label>
+		</View>
+	</ScrollableView>
+</Alloy>
+
+

@@ -1,0 +1,11 @@
+
+
+
+<Alloy>
+	<Window class="container">
+		<Label id="label" class="labelStyling" />
+		<Label id="label2" class="labelStyling" />
+		<Require src="redSquare" id="redSquare" />
+	</Window>
+</Alloy>
+

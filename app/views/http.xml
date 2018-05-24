@@ -1,0 +1,20 @@
+<Alloy>
+	<Collection instance="true" src="departures" id="departures"></Collection>
+	<Window title="List with xhr">
+		<ListView>
+			<Templates>
+				<ItemTemplate name="departure">
+					<View id="wrapper">
+						<Label id="target" bindId="target" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection dataCollection="$.departures" dataTransform="prepareData">
+				<ListItem
+					target:text="{title}"
+					template="{template}"
+				 />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

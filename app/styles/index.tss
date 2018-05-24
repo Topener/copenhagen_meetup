@@ -1,0 +1,9 @@
+
+"#wrapper": {
+	title: "Examples",
+	backgroundColor: "#ffffff"
+}
+
+"ListItem": {
+	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE 
+}

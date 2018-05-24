@@ -1,0 +1,12 @@
+<Alloy>
+	<NavigationWindow module="xp.ui" id="navWin">
+		<Window id="wrapper">
+			<ListView id="list" onItemclick="handleItemClick">
+				<ListSection>
+					<ListItem title="Map" controller="map"  />
+					<ListItem title="List from HTTP" controller="http"  />
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
