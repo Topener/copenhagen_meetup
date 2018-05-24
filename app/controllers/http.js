@@ -19,9 +19,9 @@ function handleData(e){
 }
 
 function prepareData(model) {
-	console.log("preparing", model.toJSON());
 	return {
 		title: model.attributes.destination.name,
+		track: model.attributes.track,
 		template: 'departure'
 	};
 }

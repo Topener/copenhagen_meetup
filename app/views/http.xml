@@ -6,12 +6,14 @@
 				<ItemTemplate name="departure">
 					<View id="wrapper">
 						<Label id="target" bindId="target" />
+						<Label id="track" bindId="track" />
 					</View>
 				</ItemTemplate>
 			</Templates>
 			<ListSection dataCollection="$.departures" dataTransform="prepareData">
 				<ListItem
 					target:text="{title}"
+					track:text="{track}"
 					template="{template}"
 				 />
 			</ListSection>

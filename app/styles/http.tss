@@ -14,3 +14,11 @@
 	width: Ti.UI.SIZE,
 	top: 10
 }
+
+"#track": {
+	right: 10,
+	font: {
+		fontSize: 40
+	},
+	width: Ti.UI.SIZE
+}
